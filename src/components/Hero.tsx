@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Float, Text3D, Center } from "@react-three/drei";
+import { OrbitControls, Float, Center } from "@react-three/drei";
 import { Suspense } from "react";
 import { ArrowDown } from "lucide-react";
 

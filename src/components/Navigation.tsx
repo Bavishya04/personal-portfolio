@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -11,6 +11,7 @@ const Navigation = () => {
     { id: "about", label: "About" },
     { id: "projects", label: "Projects" },
     { id: "skills", label: "Skills" },
+    { id: "resume", label: "Resume" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -81,6 +82,16 @@ const Navigation = () => {
             className="p-2 rounded-full bg-gradient-to-r from-purple-500/20 to-cyan-500/20 border border-cyan-400/30 hover:border-cyan-400/60 transition-all duration-300"
           >
             <Linkedin size={20} />
+          </motion.a>
+          <motion.a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.2, rotate: 5 }}
+            whileTap={{ scale: 0.9 }}
+            className="p-2 rounded-full bg-gradient-to-r from-purple-500/20 to-cyan-500/20 border border-cyan-400/30 hover:border-cyan-400/60 transition-all duration-300"
+          >
+            <Instagram size={20} />
           </motion.a>
         </div>
       </div>
