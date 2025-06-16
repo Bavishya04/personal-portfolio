@@ -8,62 +8,69 @@ const Projects = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const projects = [
-    {
-      id: 1,
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce platform with React, TypeScript, and Stripe integration. Features include product catalog, shopping cart, and payment processing.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      tech: ["React", "TypeScript", "Stripe", "Tailwind CSS"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with interactive maps, forecasts, and location-based weather data. Built with modern design principles.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      tech: ["React", "API Integration", "Charts.js", "CSS3"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      id: 4,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website with 3D animations, particle effects, and smooth transitions. Showcases modern web development techniques.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      tech: ["React", "Three.js", "Framer Motion", "Tailwind"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      id: 5,
-      title: "Social Media App",
-      description: "A social media platform with real-time chat, post sharing, and user interactions. Features modern UI/UX design patterns.",
-      image: "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=500&h=300&fit=crop",
-      tech: ["React", "Firebase", "Material-UI", "PWA"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      id: 6,
-      title: "Cryptocurrency Tracker",
-      description: "A real-time cryptocurrency tracking application with price charts, market analysis, and portfolio management features.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop",
-      tech: ["React", "Chart.js", "CoinGecko API", "Redux"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-  ];
+ const projects = [
+  {
+    id: 1,
+    title: "Task Management App",
+    description:
+      "A task management app with basic features like adding, editing, and deleting tasks. Built with React as a learning project.",
+    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+    tech: ["React", "CSS"],
+    github: "https://github.com/Bavishya04/Task-Management.git",
+    live: " https://bavishya04.github.io/Task-Management/",
+  },
+  {
+    id: 2,
+    title: "Portfolio Website",
+    description:
+      "This personal portfolio showcases my skills, projects, and experience. Features 3D animations, particle effects, and dark theme.",
+    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
+    tech: ["React", "Three.js", "Framer Motion", "Tailwind CSS"],
+    github: "https://github.com/Bavishya04/kinetic-dark-spark.git",
+    live: "https://github.com/Bavishya04/kinetic-dark-spark.git",
+  },
+  {
+    id: 3,
+    title: "Spotify Frontpage Clone",
+    description:
+      "A clone of the Spotify front page for UI/UX practice using Figma and React. Focused on layout, styling, and responsiveness.",
+    image: "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=500&h=300&fit=crop",
+    tech: ["React", "Tailwind CSS", "Figma"],
+    github: "https://github.com/Bavishya04/Spotify-Front-Page-Clone-.git",
+    live: "https://github.com/Bavishya04/Spotify-Front-Page-Clone-.git",
+  },
+  {
+    id: 4,
+    title: "Student Mark Analysis ML App",
+    description:
+      "A simple ML-powered app that predicts and analyzes student marks based on input data. Includes a basic dashboard for results.",
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop",
+    tech: ["Python", "Flask", "Pandas", "Joblib"],
+    github: "https://github.com/Bavishya04/Mark-Analysis-using-ML.git",
+    live: "https://github.com/Bavishya04/Mark-Analysis-using-ML.git",
+  },
+  {
+    id: 5,
+    title: "Fruit Prediction AI Model",
+    description:
+      "An AI model that predicts fruit type based on uploaded image data. Built as a beginner AI project to explore classification.",
+    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
+    tech: ["Python", "TensorFlow / Sklearn", "Flask"],
+    github: "https://github.com/Bavishya04/Fruit-predictor.git",
+    live: "https://github.com/Bavishya04/Fruit-predictor.git",
+  },
+  {
+    id: 6,
+    title: "Event Management Page",
+    description:
+      "A basic static event management webpage designed using pure HTML and CSS to practice layout and styling.",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+    tech: ["HTML", "CSS"],
+    github: "https://github.com/Bavishya04/Event.git",
+    live: "https://github.com/Bavishya04/Event.git",
+  },
+];
+
 
   return (
     <section id="projects" className="py-20 px-6 relative">

@@ -12,7 +12,7 @@ const Resume = () => {
     // In a real implementation, this would download your actual resume PDF
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // You would put your actual resume file here
-    link.download = 'Alex_Developer_Resume.pdf';
+    link.download = 'Bavishya_Developer_Resume.pdf';
     link.click();
   };
 

@@ -8,10 +8,11 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const stats = [
-    { number: "3+", label: "Years Experience" },
-    { number: "50+", label: "Projects Completed" },
-    { number: "15+", label: "Happy Clients" },
-    { number: "24/7", label: "Support" },
+   { number: "1+", label: "Years of Coding Experience" },
+{ number: "5+", label: "Mini Projects Completed" },
+{ number: "3+", label: "Technologies Explored" },
+{ number: "Always", label: "Eager to Learn" }
+
   ];
 
   return (
@@ -38,6 +39,8 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-center lg:text-left"
           >
+            
+            
             <div className="relative mb-8">
               <motion.div
                 whileHover={{ scale: 1.05, rotate: 2 }}
@@ -45,7 +48,7 @@ const About = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full blur-lg opacity-30"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                  src="/me.jpg"
                   alt="Profile"
                   className="relative w-full h-full object-cover rounded-full border-4 border-white/20"
                 />
@@ -60,15 +63,17 @@ const About = () => {
               design trends or contributing to open-source projects.
             </p>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300"
-            >
+            <motion.a
+                href="/resume.pdf"  // 👉 This is your resume file path (put resume.pdf in /public folder)
+                download
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="inline-block px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300"
+             >
               Download Resume
-            </motion.button>
-          </motion.div>
+             </motion.a>
 
+</motion.div>
           {/* Stats */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}

@@ -6,19 +6,19 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com",
+      href: "https://github.com/Bavishya04",
       label: "GitHub",
       color: "hover:text-gray-400"
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/bavishya-narayanan-8095b3353/",
       label: "LinkedIn",
       color: "hover:text-blue-400"
     },
     {
       icon: Instagram,
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/bavsh_nb/",
       label: "Instagram",
       color: "hover:text-pink-400"
     }
@@ -33,7 +33,7 @@ const Footer = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent"
           >
-            Alex Portfolio
+            Bavishya Portfolio
           </motion.div>
 
           {/* Social Links */}
@@ -68,7 +68,7 @@ const Footer = () => {
             >
               <Heart size={16} className="text-red-400 fill-current" />
             </motion.div>
-            <span>© 2024 Alex. All rights reserved.</span>
+            <span>© 2025 Bavishya. All rights reserved.</span>
           </motion.div>
         </div>
       </div>

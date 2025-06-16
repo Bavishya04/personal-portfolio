@@ -64,7 +64,7 @@ const Navigation = () => {
 
         <div className="flex space-x-4">
           <motion.a
-            href="https://github.com"
+            href="https://github.com/Bavishya04"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: 5 }}
@@ -74,7 +74,7 @@ const Navigation = () => {
             <Github size={20} />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/bavishya-narayanan-8095b3353/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: -5 }}
@@ -84,7 +84,7 @@ const Navigation = () => {
             <Linkedin size={20} />
           </motion.a>
           <motion.a
-            href="https://instagram.com"
+            href="https://www.instagram.com/bavsh_nb/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: 5 }}

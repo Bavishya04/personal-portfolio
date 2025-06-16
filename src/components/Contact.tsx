@@ -134,12 +134,12 @@ const Contact = () => {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-semibold text-cyan-400 mb-2">Email</h4>
-                  <p className="text-gray-300">alex.developer@example.com</p>
+                  <p className="text-gray-300">bavishyanarayanan123@gmail.com</p>
                 </div>
                 
                 <div>
                   <h4 className="text-lg font-semibold text-cyan-400 mb-2">Location</h4>
-                  <p className="text-gray-300">San Francisco, CA</p>
+                  <p className="text-gray-300">TamilNadu,Chennai</p>
                 </div>
                 
                 <div>
@@ -154,7 +154,7 @@ const Contact = () => {
               
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/Bavishya04"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -5 }}
@@ -165,7 +165,7 @@ const Contact = () => {
                 </motion.a>
                 
                 <motion.a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/bavishya-narayanan-8095b3353/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -5 }}
