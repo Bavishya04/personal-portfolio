@@ -11,14 +11,14 @@ const Resume = () => {
   const handleDownload = () => {
     // In a real implementation, this would download your actual resume PDF
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // You would put your actual resume file here
+    link.href = '/resumee.pdf'; // You would put your actual resume file here
     link.download = 'Bavishya_Developer_Resume.pdf';
     link.click();
   };
 
   const handleView = () => {
     // In a real implementation, this would open your resume in a new tab
-    window.open('/resume.pdf', '_blank');
+    window.open('/resumee.pdf', '_blank');
   };
 
   return (

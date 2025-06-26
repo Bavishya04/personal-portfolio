@@ -14,7 +14,7 @@ const Projects = () => {
     title: "Task Management App",
     description:
       "A task management app with basic features like adding, editing, and deleting tasks. Built with React as a learning project.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+    image: "/todo.jfif",
     tech: ["React", "CSS"],
     github: "https://github.com/Bavishya04/Task-Management.git",
     live: " https://bavishya04.github.io/Task-Management/",
@@ -24,7 +24,7 @@ const Projects = () => {
     title: "Portfolio Website",
     description:
       "This personal portfolio showcases my skills, projects, and experience. Features 3D animations, particle effects, and dark theme.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
+    image: "/port.jfif",
     tech: ["React", "Three.js", "Framer Motion", "Tailwind CSS"],
     github: "https://github.com/Bavishya04/kinetic-dark-spark.git",
     live: "https://github.com/Bavishya04/kinetic-dark-spark.git",
@@ -34,7 +34,7 @@ const Projects = () => {
     title: "Spotify Frontpage Clone",
     description:
       "A clone of the Spotify front page for UI/UX practice using Figma and React. Focused on layout, styling, and responsiveness.",
-    image: "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=500&h=300&fit=crop",
+    image: "/spotify.jfif",
     tech: ["React", "Tailwind CSS", "Figma"],
     github: "https://github.com/Bavishya04/Spotify-Front-Page-Clone-.git",
     live: "https://github.com/Bavishya04/Spotify-Front-Page-Clone-.git",
@@ -44,7 +44,7 @@ const Projects = () => {
     title: "Student Mark Analysis ML App",
     description:
       "A simple ML-powered app that predicts and analyzes student marks based on input data. Includes a basic dashboard for results.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop",
+    image: "/student.jfif",
     tech: ["Python", "Flask", "Pandas", "Joblib"],
     github: "https://github.com/Bavishya04/Mark-Analysis-using-ML.git",
     live: "https://github.com/Bavishya04/Mark-Analysis-using-ML.git",
@@ -54,7 +54,7 @@ const Projects = () => {
     title: "Fruit Prediction AI Model",
     description:
       "An AI model that predicts fruit type based on uploaded image data. Built as a beginner AI project to explore classification.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
+    image: "/fruit.jfif",
     tech: ["Python", "TensorFlow / Sklearn", "Flask"],
     github: "https://github.com/Bavishya04/Fruit-predictor.git",
     live: "https://github.com/Bavishya04/Fruit-predictor.git",
@@ -64,7 +64,7 @@ const Projects = () => {
     title: "Event Management Page",
     description:
       "A basic static event management webpage designed using pure HTML and CSS to practice layout and styling.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+    image: "/event.jfif",
     tech: ["HTML", "CSS"],
     github: "https://github.com/Bavishya04/Event.git",
     live: "https://github.com/Bavishya04/Event.git",

@@ -64,7 +64,7 @@ const About = () => {
             </p>
 
             <motion.a
-                href="/resume.pdf"  // 👉 This is your resume file path (put resume.pdf in /public folder)
+                href="/resumee.pdf"  // 👉 This is your resume file path (put resume.pdf in /public folder)
                 download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
