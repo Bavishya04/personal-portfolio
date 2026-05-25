@@ -9,11 +9,14 @@ const Resume = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const handleDownload = () => {
-    // In a real implementation, this would download your actual resume PDF
     const link = document.createElement('a');
-    link.href = '/resumee.pdf'; // You would put your actual resume file here
+    link.href = '/resumee.pdf';
     link.download = 'Bavishya_Developer_Resume.pdf';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   const handleView = () => {
